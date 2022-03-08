@@ -42,7 +42,7 @@ def getproductprice(soup):
         print("No price data was scraped")
         return None
     
-    def getproduct(URL):
+def getproduct(URL):
         '''Get all the essential product data'''
     try:
         soup = getsoup(URL)
